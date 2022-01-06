@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ArkadasBulActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                android:visibility="visible"
+                app:backgroundTint="@color/primary"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageProfile3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="299dp"
+                android:background="@drawable/background_image"
+                android:scaleType="centerCrop"
+                app:riv_oval="true" />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/kullanıcıAd4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kullanıcıAd"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="-55dp"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/primary"></TextView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/primary"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/arkadasEkle"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/primary"
+
+            ></TextView>
+        <EditText
+            android:id="@+id/findFriend"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_input"
+            android:hint="@string/emailGir"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/primary_text"
+            android:textSize="13dp">
+            </EditText>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/search"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="347dp"
+            android:layout_marginTop="-45dp"
+            android:src="@drawable/ic_baseline_search_24"
+            android:visibility="visible"
+            app:backgroundTint="@color/primary"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+        <FrameLayout
+            android:id="@+id/finded"
+            android:layout_width="fill_parent"
+            android:visibility="invisible"
+            android:layout_height="90dp">
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/otherImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/background_image"
+                android:scaleType="centerCrop"
+                app:riv_oval="true" />
+            <TextView
+                android:id="@+id/otherKullanıcıAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kullanıcıAd"
+                android:layout_marginLeft="@dimen/_80sdp"
+                android:layout_marginTop="25dp"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/primary"></TextView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="88dp"
+                android:background="@color/primary"></View>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

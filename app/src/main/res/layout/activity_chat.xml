@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ChatActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        app:backgroundTint="@color/primary"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <TextView
+        android:id="@+id/karsıİsim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/karsiHesap"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginLeft="60dp"
+        android:drawablePadding="90dp">
+
+    </TextView>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/background_image"
+        android:scaleType="centerCrop"
+        app:riv_oval="true"/>
+    </FrameLayout>
+
+    <View
+        android:id="@+id/cizgi"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginLeft="-1000dp"
+        android:background="@color/primary"></View>
+
+    <FrameLayout
+        android:id="@+id/mesajlaşmaEkranı"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_marginBottom="@dimen/_70sdp"
+        android:layout_marginLeft="-410dp">
+
+
+
+    </FrameLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="-1000dp"
+        android:background="@color/primary"></View>
+
+
+        <EditText
+            android:id="@+id/mesajYaz"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-370dp"
+            android:layout_marginTop="600dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/edit_text"
+            android:drawablePadding="-50dp">
+
+
+        </EditText>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginLeft="-45dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/ic_baseline_send_24"
+        app:backgroundTint="@color/primary"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </LinearLayout>
+</ScrollView>

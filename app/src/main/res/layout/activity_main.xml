@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="408dp"
+        android:layout_height="311dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="150dp"></ImageView>
+
+    <Button
+        android:id="@+id/giris"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary"
+        android:text="GİRİŞ"
+
+        android:textColor="@color/white"></Button>
+
+
+    <Button
+        android:id="@+id/kayit"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/primary"
+        android:text="KAYIT OL"></Button>
+
+
+</LinearLayout>

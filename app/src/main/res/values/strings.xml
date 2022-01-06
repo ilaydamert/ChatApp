@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hermes</string>
+    <string name="welcome">HOŞGELDİN</string>
+    <string name="login">GİRİŞ YAP</string>
+    <string name="add_image">Fotoğraf Ekle</string>
+    <string name="password">Parola</string>
+    <string name="email">Email</string>
+    <string name="name">İsim</string>
+    <string name="confirm_password">Parola doğrula</string>
+    <string name="giris">Giriş Yap</string>
+    <string name="kayit">KAYIT OL</string>
+    <string name="hesapOluştur">YENİ HESAP OLUŞTUR</string>
+    <string name="kullanıcıAd">Kullanıcı Adı</string>
+    <string name="sohbetler">SOHBETLER</string>
+    <string name="karsiHesap">Karşı Hesap</string>
+    <string name="title_activity_find">FindActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="güncelle">Hesap Güncelle</string>
+    <string name="sil">Hesap Sil</string>
+    <string name="arkadaslar">ARKADAŞLAR</string>
+    <string name="arkadasEkle">ARKADAŞ BUL</string>
+    <string name="emailGir">Email Girin</string>
+</resources>
